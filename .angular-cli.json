@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "version": "1.0.0-beta.32.3",
+    "version": "1.0.0",
     "name": "angular2-markdown"
   },
   "module":[{
@@ -23,7 +23,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../src/test.ts",
-      "tsconfig": "tsconfig.json",
+      "tsconfig": "tsconfig.aot.json",
       "prefix": "app",
       "styles": [
         "../../node_modules/prismjs/themes/prism-okaidia.css"
