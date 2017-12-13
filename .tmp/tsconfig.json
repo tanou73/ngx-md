@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "../dist",
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["dom", "es6"],
+        "types": [
+            "jasmine"
+        ]
+    },
+
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "./angular2-markdown.ts",
+        "./index.ts"
+    ],
+    "typeRoots": [
+        "../node_modules/@types/"
+    ]
+}

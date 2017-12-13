@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "../dist",
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["dom", "es6"]
+    },
+    "exclude": [
+        "../node_modules",
+        "**/*.spec.ts"
+    ],
+    "files": [
+        "../scripts/typings.d.ts",
+        "./angular2-markdown.ts",
+        "./index.ts"
+    ],
+    "typeRoots": [
+        "../node_modules/@types/"
+    ]
+}
